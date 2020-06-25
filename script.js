@@ -28,7 +28,7 @@ $(document).ready(function() {
                 $(this).children(".hourDetails").css("background-color", "lightgray");
             }
 
-            else if (hourRow === currentTime) {
+            else if (hourRow == currentTime) {
                 $(this).children(".hourDetails").css("background-color", "lightcoral");
  
             }
